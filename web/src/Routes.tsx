@@ -14,6 +14,7 @@ import Layout from './layouts/Layout/Layout'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/login" page={LoginPage} name="login" />
       <Set wrap={Layout}>
         <Route path="/" page={HomePage} name="home" />
       </Set>
